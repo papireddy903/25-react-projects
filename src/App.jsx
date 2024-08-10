@@ -1,11 +1,12 @@
 import React from 'react'
 import Accordion from "./components/accordion/Accordion"
-import './components/accordion/styles.css'
+import Color from './components/random_color_generator/Color'
 
 const App = () => {
   return (
     <div className="App">
-      <Accordion />
+      {/* <Accordion /> */}
+      <Color />
     </div>
   )
 }
