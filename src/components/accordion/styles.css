@@ -1,0 +1,53 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.accordion {
+    width: 500px;
+}
+
+.item {
+    margin-top: 10px;
+    background-color: brown;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+
+}
+
+.display-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: large;
+}
+
+
+.plus {
+    padding: 1rem;
+}
+
+.content {
+    padding: 1rem 1rem;
+}
+
+.multi-btn {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
