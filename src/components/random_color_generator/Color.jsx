@@ -34,7 +34,6 @@ const Color = () => {
         setColor(`rgb(${r},${g},${b})`)
 
 
-
     }
 
 
